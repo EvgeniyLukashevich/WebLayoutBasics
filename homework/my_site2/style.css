@@ -1,28 +1,150 @@
+
 * {
     margin: 0px;
     padding: 0px;
 }
-
 a {
     text-decoration: none;
+}
+.center {
+    padding-left: calc(50% - 640px);
+    padding-right: calc(50% - 640px);
 }
 
 header {
     padding-top: 45px;
     padding-bottom: 89px;
+    display: flex;
+    align-items: center;
+    gap: 500px;
+}
+.menu__box {
+    display: flex;
+    gap: 28px;
+}
+
+.menu__link p{
+    color: #000;
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: all .2s ;
+}
+.menu__link p:hover {
+    color: #F25822;
+}
+.menu__link p:active {
+    transform: scale(0.9);
+}
+.special__link {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.current__link p {
+    color: #F25822;
 }
 
 main {
     padding-bottom: 162px;
+    display: flex;
+    gap: 40px;
+}
+.text__box {
+    width: 522px;
 }
 .text__box__content {
     margin-bottom: 37px;
 }
 .text__box__title {
     margin-bottom: 17px;
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.text__box__paragraph {
+    width: 466px;
+    color: #888;
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.main__image {
+    width: 545px;
+}
+
+
+.start__button {
+    width: 140px;
+    height: 50px;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    border: none;
+    color: #FFF;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: all .3s;
+    margin-right: 47px;
+}
+.watch__button {
+    width: 140px;
+    height: 50px;
+    border-radius: 50px;
+    color: #AAA;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+    background: none;
+    transition: all .3s;
+}
+.watch__button:hover {
+    width: 140px;
+    height: 50px;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    border: none;
+    color: #FFF;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.text__box__buttons button:active {
+    transform: scale(.9);
 }
 
 footer {
     padding-top: 97px;
     padding-bottom: 96px;
+}
+.foot__logos__box {
+    display: flex;
+    gap: 48px;
+}
+.foot__logos__box a {
+    width: 160px;
+    height: 50px;
+}
+.foot__logos__box img {
+    
+    transition: .3s;
+}
+.foot__logos__box img:hover {
+    filter: contrast(20%);
 }
