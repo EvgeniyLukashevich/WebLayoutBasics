@@ -47,7 +47,7 @@ header {
     color: #F25822;
 }
 
-main {
+.top__content__area {
     padding-bottom: 162px;
     display: flex;
     gap: 40px;
@@ -78,6 +78,14 @@ main {
 }
 .main__image {
     width: 545px;
+    filter: grayscale(40%);
+    transition: all .3s;
+}
+.main__image:hover {
+    filter: grayscale(0);
+}
+.main__image:active {
+    transform: scale(1.5);
 }
 
 
@@ -96,6 +104,9 @@ main {
     line-height: normal;
     transition: all .3s;
     margin-right: 47px;
+}
+.start__button:hover {
+    filter: contrast(150%);
 }
 .watch__button {
     width: 140px;
@@ -124,6 +135,7 @@ main {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    filter: contrast(150%);
 }
 .text__box__buttons button:active {
     transform: scale(.9);
@@ -147,4 +159,9 @@ footer {
 }
 .foot__logos__box img:hover {
     filter: contrast(20%);
+}
+
+
+.bottom__content__area {
+    
 }
