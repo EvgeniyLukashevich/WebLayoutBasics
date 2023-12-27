@@ -1,5 +1,5 @@
 # Lesson 8. Webinar. Homework
-###### Решение находится в каталоге ```my_site2```  
+##### Решение находится в каталоге ```my_site2```  
 
 Мы продолжаем работать с проектом из прошлого урока: 
 ```
@@ -16,7 +16,7 @@ https://www.figma.com/file/mnLY69cYE5cqWM5w6n5hXx/Seo-%26-Digital-Marketing-Land
 ## 
 
 # Lesson 6. Seminar. Homework
-###### Решение находится в каталоге ```my_site2```  
+##### Решение находится в каталоге ```my_site2```  
 
 1. Открыть макет сайта 
     ```
@@ -55,7 +55,7 @@ https://www.figma.com/file/mnLY69cYE5cqWM5w6n5hXx/Seo-%26-Digital-Marketing-Land
 ## 
 
 # Lesson 4. Seminar. Homework
-###### Решение находится в каталоге ```my_site``` 
+##### Решение находится в каталоге ```my_site``` 
 
 
 Данная домашняя работа является продолжение предыдущей, не забываем использовать работу из прошлого урока  
@@ -134,7 +134,7 @@ https://www.figma.com/file/mnLY69cYE5cqWM5w6n5hXx/Seo-%26-Digital-Marketing-Land
 
 
 # Lesson 2. Seminar. Homework
-###### Решение находится в каталоге ```my_site```
+##### Решение находится в каталоге ```my_site```
 
 1. Скачать и настроить редактор кода, если этого не сделали на семинаре
 2. Создать пустую папку, придумать название
