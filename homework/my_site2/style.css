@@ -1,11 +1,12 @@
-
 * {
     margin: 0px;
     padding: 0px;
 }
+
 a {
     text-decoration: none;
 }
+
 .center {
     padding-left: calc(50% - 640px);
     padding-right: calc(50% - 640px);
@@ -18,31 +19,36 @@ header {
     align-items: center;
     gap: 500px;
 }
+
 .menu__box {
     display: flex;
     gap: 28px;
 }
 
-.menu__link p{
+.menu__link p {
     color: #000;
     font-family: Gilroy-Medium;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    transition: all .2s ;
+    transition: all .2s;
 }
+
 .menu__link p:hover {
     color: #F25822;
 }
+
 .menu__link p:active {
     transform: scale(0.9);
 }
+
 .special__link {
     display: flex;
     align-items: center;
     gap: 4px;
 }
+
 .current__link p {
     color: #F25822;
 }
@@ -52,12 +58,15 @@ header {
     display: flex;
     gap: 40px;
 }
+
 .text__box {
     width: 522px;
 }
+
 .text__box__content {
     margin-bottom: 37px;
 }
+
 .text__box__title {
     margin-bottom: 17px;
     color: #000;
@@ -67,6 +76,7 @@ header {
     font-weight: 400;
     line-height: normal;
 }
+
 .text__box__paragraph {
     width: 466px;
     color: #888;
@@ -76,14 +86,17 @@ header {
     font-weight: 400;
     line-height: normal;
 }
+
 .main__image {
     width: 545px;
     filter: grayscale(40%);
     transition: all .3s;
 }
+
 .main__image:hover {
     filter: grayscale(0);
 }
+
 .main__image:active {
     transform: scale(1.5);
 }
@@ -105,9 +118,12 @@ header {
     transition: all .3s;
     margin-right: 47px;
 }
+
 .start__button:hover {
     filter: contrast(150%);
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.40);
 }
+
 .watch__button {
     width: 140px;
     height: 50px;
@@ -122,12 +138,13 @@ header {
     background: none;
     transition: all .3s;
 }
+
 .watch__button:hover {
     width: 140px;
     height: 50px;
     border-radius: 50px;
     background: #F25822;
-    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.30);
     border: none;
     color: #FFF;
     font-family: Gilroy-Bold;
@@ -137,31 +154,237 @@ header {
     line-height: normal;
     filter: contrast(150%);
 }
+
 .text__box__buttons button:active {
     transform: scale(.9);
 }
 
-footer {
+
+.foot__logos__area {
     padding-top: 97px;
     padding-bottom: 96px;
-}
-.foot__logos__box {
     display: flex;
     gap: 48px;
 }
-.foot__logos__box a {
+
+.foot__logos__area a {
     width: 160px;
     height: 50px;
 }
-.foot__logos__box img {
-    
+
+.foot__logos__area img {
+
     transition: .3s;
 }
-.foot__logos__box img:hover {
+
+.foot__logos__area img:hover {
     filter: contrast(20%);
+
 }
 
 
-.bottom__content__area {
-    
+.bottom__content__area {}
+
+.benefits__box {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.benefits__item {
+    width: 370px;
+    transition: all .3s;
+}
+
+.benefits__item:hover {
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.16);
+}
+
+.middle__item {
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.benefits__img {
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.benefits__title {
+    margin-left: 30px;
+    margin-top: 25px;
+    margin-bottom: 17px;
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.benefits__text {
+    margin-left: 30px;
+    margin-bottom: 25px;
+    width: 310px;
+    color: #666;
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.5px
+}
+
+.benefits__button {
+    margin-left: 30px;
+    margin-bottom: 25px;
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16.5px;
+    border: none;
+    background-color: transparent;
+    transition: all .3s;
+}
+
+.benefits__button:hover {
+    color: #F25822;
+}
+
+.benefits__button:active {
+    transform: scale(0.9);
+}
+
+
+.offers__box {
+    padding-top: 92px;
+    padding-bottom: 100px;
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bottom__content__title {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.bottom__content__text {
+    width: 682px;
+    color: #666;
+    text-align: center;
+    font-family: Gilroy-Regular;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 24px;
+    margin-bottom: 54px;
+}
+
+.offers__items {
+    display: flex;
+    gap: 30px;
+}
+
+.offers__item {
+    width: 370px;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all .3s;
+}
+
+.offers__item:hover {
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.20);
+}
+
+.offers__item img {
+    transition: all .3s;
+    filter: grayscale(50%);
+}
+
+.offers__item:hover img {
+    filter: grayscale(0);
+}
+
+.offers__item img:active {
+    transform: scale(1.5);
+}
+
+.middle__item2 {
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.10);
+}
+
+.offers__title {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.offers__text {
+    width: 310px;
+    margin-top: 22px;
+    margin-bottom: 39px;
+    color: #AAA;
+    text-align: center;
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.5px;
+}
+
+.learn__button__box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+.learn__button {
+    width: 140px;
+    height: 50px;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    border: none;
+    transition: all .3s;
+    margin-bottom: 50px;
+}
+
+.learn__button__box {
+    transition: all .25s;
+}
+
+.learn__button p {
+    color: #FFF;
+    font-family: Gilroy-Bold;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.5px;
+}
+
+.learn__button:hover {
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.60);
+}
+
+.learn__button:active {
+    transform: scale(1.1);
+}
+
+.learn__button:active .learn__button__box {
+    transform: scale(.85);
 }
