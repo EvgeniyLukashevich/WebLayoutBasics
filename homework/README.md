@@ -1,4 +1,4 @@
-# Lesson 11. Seminar. Homework
+# Lesson 11. Seminar. Homework 
 ##### Решение находится в каталоге ```my_site3```  
 
 
