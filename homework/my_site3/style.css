@@ -463,4 +463,7 @@ img:active {
     .footer__flex {
         flex-wrap: wrap;
     }
+    .footer__box {
+        width: 340px;
+    }
 }
