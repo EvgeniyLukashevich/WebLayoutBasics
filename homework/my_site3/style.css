@@ -230,7 +230,7 @@ img:active {
 }
 
 .core__rightbox {
-    width: 484px;
+    max-width: 484px;
 }
 
 .core__title {
@@ -245,7 +245,7 @@ img:active {
 }
 
 .core__text {
-    width: 460px;
+    max-width: 460px;
     color: var(--text-color);
     font-family: Open Sans;
     font-size: 16px;
@@ -466,4 +466,107 @@ img:active {
     .footer__box {
         width: 340px;
     }
+}
+
+@media (max-width: 767px) {
+    .center {
+        padding-left: calc(50% - (172px + 2vw));
+        padding-right: calc(50% - (172px + 2vw));
+    }
+    .menu__link {
+        font-size: 14px;
+    }
+    .header__menu {
+        gap: 5vw;
+    }
+    .top__container {
+        padding-top: 64px;
+        padding-bottom: 128px;
+    }
+    .top__title {
+        font-size: 28px;
+        text-align: center;
+        padding-top: 16px;
+    }
+    .top__subtitle {
+        font-size: 14px;
+        text-align: center;
+    }
+    .top__text {
+        padding-top: 64px;
+        text-align: center;
+    }
+    .linkbox {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 39px;
+        gap: 24px;
+    }
+    .top__rightbox {
+        max-width: 343px;
+    }
+    .top__logos__container {
+        padding-bottom: 108px;
+    }
+    .logos__leftbox, .logos__rightbox {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .logo {
+        padding: 0;
+        padding-bottom: 32px;
+    }
+    .logos__flex {
+        gap: 32px;
+    }
+
+    .core__container {
+        padding-top: 96px;
+    }
+    .core__leftbox {
+        max-width: 343px;
+    }
+    .core__title {
+        font-size: 24px;
+        text-align: center;
+    }
+    .core__text {
+        padding-top: 16px;
+        text-align: center;
+    }
+    .core__container .linkbox {
+        padding-top: 16px;
+    }
+
+    .cards__container {
+        padding-top: 96px;
+    }
+
+    .bottom__container {
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+    .bottom__rightbox {
+        padding-top: 32px;
+    }
+
+    .footer__container {
+        padding-top: 113px;
+        padding-bottom: 64px;
+    }
+    .footer__flex {
+        gap: 32px;
+        justify-content: center;
+    }
+    .footer__box {
+        align-items: start;
+    }
+    .footer__title {
+        align-self: center;
+    }
+    .footer__box2 {
+        align-items: center;
+    }
+  
 }
