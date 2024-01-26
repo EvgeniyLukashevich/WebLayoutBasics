@@ -274,7 +274,9 @@ img:active {
     background: var(--title-color);
     box-shadow: var(--item-shadow);
 }
-
+.core__link:active {
+    transform: scale(.9);
+}
 
 .cards__container {
     padding: 0 2vw;
@@ -512,6 +514,9 @@ img:active {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+    }
+    .top__logos__container img {
+        max-width: 100%;
     }
     .logo {
         padding: 0;
